@@ -1,0 +1,215 @@
+body {
+    background-color: rgb(208, 204, 204);
+}
+
+.navBar {
+    background-color: rgb(234, 253, 208);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.label {
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.StudentsHead {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.StudentsButton {
+    border: 2px solid black;
+    background-color: rgb(231, 249, 249);
+    margin-top: 35px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    height: 35px;
+    width: 250px;
+    padding-top: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+    border: 2px black solid;
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 20px;
+    width: 84%;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+hr {
+    background-color: black;
+    height: 0.2px;
+}
+
+td {
+    border-top: 2px black solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+.tableRow {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20%;
+    border-bottom: 2px black solid;
+}
+
+tr {
+    margin-top: 20px;
+}
+
+
+
+.label1 {
+    position: absolute;
+    left: 300px;
+    top: 174px;
+    z-index: 2;
+    font-size: 20px;
+    width: 60px;
+    background-color: rgb(208, 204, 204);
+}
+
+.label2 {
+    position: absolute;
+    left: 910px;
+    top: 174px;
+    z-index: 2;
+    font-size: 20px;
+    width: 40px;
+    background-color: rgb(208, 204, 204);
+}
+
+.label3 {
+    position: absolute;
+    left: 300px;
+    top: 348px;
+    z-index: 2;
+    font-size: 20px;
+    width: 70px;
+    background-color: rgb(208, 204, 204);
+}
+
+.label4 {
+    position: absolute;
+    left: 910px;
+    top: 348px;
+    z-index: 2;
+    font-size: 20px;
+    width: 55px;
+    background-color: rgb(208, 204, 204);
+}
+
+input {
+    z-index: 1;
+    width: 330px;
+    height: 45px;
+    border: 2px black solid;
+    background-color: rgb(208, 204, 204);
+    border-radius: 5px;
+}
+
+.input1 {
+    position: absolute;
+    left: 290px;
+    top: 188px;
+}
+
+.input2 {
+    position: absolute;
+    left: 895px;
+    top: 188px;
+}
+
+.input3 {
+    position: absolute;
+    left: 290px;
+    top: 363px;
+}
+
+.input4 {
+    position: absolute;
+    left: 895px;
+    top: 363px;
+}
+
+.cancel {
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgb(231, 249, 249);
+    top: 440px;
+    left: 820px;
+    margin-top: 35px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    height: 35px;
+    width: 180px;
+    padding-top: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cancel2 {
+    position: absolute;
+    border: 2px solid black;
+    background-color: rgb(231, 249, 249);
+    top: 440px;
+    left: 1050px;
+    margin-top: 35px;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    border-radius: 20px;
+    height: 35px;
+    width: 180px;
+    padding-top: 2px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+.submit {
+    position: absolute;
+    background-color: rgb(231, 249, 249);
+    top: 475px;
+    left: 1080px;
+    font-size: 20px;
+    color: black;
+    font-weight: 550;
+    border-radius: 20px;
+    height: 40px;
+    width: 170px;
+
+}
+
+.submit:hover {
+    background-color: grey;
+}
+
+.cancel:hover {
+    background-color: grey;
+}
+
+.home {
+    margin-left: 30px;
+}
